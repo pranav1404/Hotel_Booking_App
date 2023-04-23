@@ -2,6 +2,7 @@
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.418);
+  /* background: #474747ef; */
   position: fixed;
   top: 0;
   left: 0;
@@ -9,16 +10,17 @@
   align-items: center;
   justify-content: center;
   z-index: 100;
+  color: white;
 }
 
 .username1 {
-  color: black;
+  color: white;
 }
 
 .uButton {
   border: none;
   padding: 10px 20px;
-  background-color: #0071c2;
+  background-color: #38d352;
   color: white;
   font-weight: bold;
   cursor: pointer;

@@ -53,6 +53,8 @@ const List = () => {
               )} to ${format(dates[0].endDate, "MM/dd/yyyy")}`}</span>
               {openDate && (
                 <DateRange
+                className="liDaterange"
+                // rangeColors={['#f33e5b', '#3ecf8e', '#fed14c']}
                   onChange={(item) => setDates([item.selection])}
                   minDate={new Date()}
                   ranges={dates}
@@ -106,7 +108,7 @@ const List = () => {
             <button onClick={handleSearch}>Search</button>
           </div>
           <div className="listResult">
-            {loading ? "Loading Please Wait..." : 
+            {loading ? <h3 className="lod">Loading Please Wait...</h3>: 
             <>
               {data.map(item=>(
                 <SearchItem item={item} key={item._id}/>

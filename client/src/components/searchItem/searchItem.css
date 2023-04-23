@@ -6,7 +6,7 @@
   justify-content: space-between;
   gap: 20px;
   /* margin-bottom: 20px; */
-  background: #1f1f1f;
+  background: #303030;
   margin: 30px;
 }
 
@@ -14,7 +14,7 @@
   width: 200px;
   height: 200px;
   object-fit: cover;
-  background: #1f1f1f;
+  background: #303030;
 }
 
 .siDesc {
@@ -28,46 +28,53 @@
 .siTitle {
   font-size: 20px;
   color: #0071c2;
-  background: #1f1f1f;
+  background: #303030;
 }
 
 .siDistance {
   font-size: 12px;
-  background: #1f1f1f;
+  background: #303030;
   color: white;
 }
 
 .siTaxiOp {
   font-size: 12px;
-  box-shadow: 2px 2px 7px #38d39f70;
-  background: #38d39f;
+  /* box-shadow: 2px 2px 7px #38d35270; */
+  background: #38d352;
   color: white;
   width: max-content;
   padding: 3px;
   border-radius: 5px;
-  /* background: #1f1f1f; */
+  /* background: #303030; */
 }
 
 .siSubtitle {
   font-size: 12px;
   font-weight: bold;
-  background: #1f1f1f;
+  background: #303030;
+  color: white;
 }
 
+.siDesc {
+  background: #303030;
+}
 .siFeatures {
   font-size: 12px;
-  background: #1f1f1f;
+  background: #303030;
+  color: white;
 }
 
 .siCancelOp {
   font-size: 12px;
-  color: #008009;
+  color: #8aff2f;
   font-weight: bold;
+  background: #303030;
 }
 
 .siCancelOpSubtitle {
   font-size: 12px;
-  color: #008009;
+  color: #8aff2f;
+  background: #303030;
 }
 
 .siDetails {
@@ -80,15 +87,15 @@
 .siRating {
   display: flex;
   justify-content: space-between;
-  background: #1f1f1f;
+  background: #303030;
 }
 
 .siRating > span {
   font-weight: 500;
 }
 .siRating > button {
-  box-shadow: 2px 2px 7px #38d39f70;
-  background: #38d39f;
+  box-shadow: 2px 2px 7px #38d35270;
+  background: #38d352;
   color: white;
   padding: 5px;
   font-weight: bold;
@@ -100,26 +107,26 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
-  background: #1f1f1f;
+  background: #303030;
   color: white;
 }
 
 .siPrice {
   font-size: 24px;
-  background: #1f1f1f;
+  background: #303030;
   color: white;
 }
 
 .siTaxOp {
   font-size: 12px;
   color: gray;
-  background: #1f1f1f;
+  background: #303030;
   /* color: white; */
 }
 
 .siCheckButton {
-  box-shadow: 2px 2px 7px #38d39f70;
-  background: #38d39f;
+  box-shadow: 2px 2px 7px #38d35270;
+  background: #38d352;
   color: white;
   font-weight: bold;
   padding: 10px 5px;

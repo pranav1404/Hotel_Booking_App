@@ -6,7 +6,7 @@ const FeaturedProperties = () => {
   // console.log(data);
   return (
     <div className="fp">
-      {loading ? "Loading Please Wait...": <>
+      {loading ? <h3 className="lod">Loading Please Wait...</h3> : <>
       {data.map(item=>( <div className="fpItem" key={item._id}>
         <img
           src={item.photos[0]}

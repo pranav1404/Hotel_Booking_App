@@ -1,9 +1,10 @@
 .footer {
   width: 100%;
-  width: 1024px;
+  /* max-width: 1024px; */
   font-size: 12px;
-  background: #1f1f1f;
-  padding: 20px;
+  background: #474747;
+  /* padding: 20px;
+  border-radius: 10px; */
 }
 
 .fLists {
@@ -11,13 +12,13 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
-  background: #1f1f1f;
+  background: #474747;
 }
 
 .fList {
   list-style: none;
   padding: 0;
-  background: #1f1f1f;
+  background: #474747;
 }
 
 .fListItem {
@@ -25,13 +26,13 @@
   color: white;
   /* color: aliceblue; */
   cursor: pointer;
-  background: #1f1f1f;
+  background: #474747;
 }
 
 .fText {
   display: flex;
   justify-content: center;
-  background: #1f1f1f;
+  background: #474747;
   font-size: 1em;
   color: white;
   /* color: aliceblue; */

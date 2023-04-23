@@ -105,10 +105,12 @@ const Header = ({ type }) => {
           <>
           {userData ? 
           
-          <div className="description">Welcome {userData.username}
+          <div className="description">Welcome {userData.username} to <b>book.it</b> <br />
+          <h1>Find your next stay</h1>
+          <h2>Search low prices on hotels, homes and much more...</h2>
+          {/* <br />
           <br />
-          <br />
-            <button className="headerBtn" onClick={handleClick}>Relogin?</button>
+            <button className="headerBtn" onClick={handleClick}>Relogin?</button> */}
           </div>  
 
           : 

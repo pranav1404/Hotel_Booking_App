@@ -22,7 +22,7 @@ const Allhotels = () => {
       <Header type="list" />
 
         <div className="listResult">
-            {loading ? "Loading Please Wait..." : 
+            {loading ? <h3 className="lod">Loading Please Wait...</h3> : 
             <>
               {/* {console.log(data[0].type)} */}
               {data.map(item=>(

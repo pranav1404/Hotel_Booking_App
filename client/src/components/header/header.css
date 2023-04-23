@@ -3,7 +3,7 @@
 }
 
 .header {
-  background-color: #1f1f1f;
+  background-color: #474747;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
   border-radius: 10px;
   color: white;
@@ -17,12 +17,12 @@
   width: 100%;
   max-width: 1024px;
   margin: 20px 0px 100px 0px;
-  background: #1f1f1f;
+  background: #474747;
 }
 
 .headerContainer.listMode {
   margin: 20px 0px 0px 0px;
-  background: #1f1f1f;
+  background: #474747;
   display: table-column;
 }
 
@@ -30,14 +30,14 @@
   display: flex;
   gap: 40px;
   margin-bottom: 50px;
-  background: #1f1f1f;
+  background: #474747;
 }
 
 .headerListItem {
   display: flex;
   align-items: center;
   gap: 10px;
-  background: #1f1f1f;
+  background: #474747;
   cursor: pointer;
 }
 
@@ -45,36 +45,36 @@
   border: 1px solid white;
   padding: 10px;
   border-radius: 20px;
-  background: #1f1f1f;
+  background: #474747;
 }
 
 .headerDesc {
   margin: 20px 0px;
-  background: #1f1f1f;
+  background: #474747;
 }
 .headerSearchItem {
-  background: #1f1f1f;
+  background: #474747;
 }
 
 .headerBtn {
   font-size: 1em;
   border: none;
   padding: 10px 20px;
-  box-shadow: 2px 2px 7px #38d39f70;
-  background: #38d39f;
+  box-shadow: 2px 2px 7px #38d35270;
+  background: #38d352;
   color: white;
   font-weight: bold;
   cursor: pointer;
   border-radius: 5px;
-  /* background: #1f1f1f; */
+  /* background: #474747; */
 }
 
 .headerSearch {
   height: 30px;
   background-color: white;
-  background: #1f1f1f;
-  border: 3px solid #38d39f;
-  box-shadow: 2px 2px 7px #38d39f70;
+  background: #474747;
+  border: 3px solid #38d352;
+  box-shadow: 2px 2px 7px #38d35270;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -86,21 +86,21 @@
   max-width: 1024px;
 }
 .headerText {
-  background: #1f1f1f;
+  background: #474747;
 }
 
 .description {
-  background: #1f1f1f;
+  background: #474747;
 }
 .headerIcon {
   color: lightgray;
-  background: #1f1f1f;
+  background: #474747;
 }
 
 .headerSearchItem {
   display: flex;
   align-items: center;
-  background: #1f1f1f;
+  background: #474747;
   gap: 10px;
 }
 
@@ -108,12 +108,12 @@
   border: none;
   outline: none;
   color: white;
-  background: #1f1f1f;
+  background: #474747;
 }
 
 .headerSearchText {
   color: lightgray;
-  background: #1f1f1f;
+  background: #474747;
   cursor: pointer;
 }
 
@@ -127,7 +127,7 @@
   z-index: 2;
   position: absolute;
   top: 50px;
-  background: #1f1f1f;
+  background: #474747;
   color: gray;
   border-radius: 5px;
   -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
@@ -138,12 +138,12 @@
   width: 200px;
   display: flex;
   justify-content: space-between;
-  background: #1f1f1f;
+  background: #474747;
   margin: 10px;
 }
 
 .optionCounter {
-  background: #1f1f1f;
+  background: #474747;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -154,15 +154,15 @@
 .optionCounterButton {
   width: 30px;
   height: 30px;
-  color: #38d39f;
+  color: #38d352;
   cursor: pointer;
-  background: #1f1f1f;
+  background: #474747;
   border-radius: 10px;
 }
 .optionText {
-  background: #1f1f1f;
+  background: #474747;
 }
 .optionCounterButton:disabled {
   cursor: not-allowed;
-  /* background: #1f1f1f; */
+  /* background: #474747; */
 }

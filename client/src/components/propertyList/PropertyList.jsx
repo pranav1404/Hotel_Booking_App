@@ -20,7 +20,7 @@ const PropertyList = () => {
   return (
     <div className="pList">
       {loading ? (
-        "Loading Please Wait..."
+        <h3 className="lod">Loading Please Wait...</h3>
       ) : (
         <>
           {data &&

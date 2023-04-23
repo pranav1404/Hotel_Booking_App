@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  background: #1f1f1f;
+  background: #474747;
   margin: 10px;
   border-radius: 10px;
   padding: 10px;
@@ -11,7 +11,7 @@
 .listWrapper {
   width: 100%;
   max-width: 1024px;
-  background: #1f1f1f;
+  background: #474747;
   display: flex;
   gap: 20px;
 }
@@ -20,8 +20,8 @@
   flex: 1;
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 2px 2px 7px #38d39f70;
-  background: #38d39f;
+  box-shadow: 2px 2px 7px #38d35270;
+  background: #38d352;
   position: sticky;
   top: 10px;
   height: max-content;
@@ -29,7 +29,7 @@
 
 .lsTitle {
   font-size: 20px;
-  background: #38d39f;
+  background: #38d352;
   color: #555;
   margin-bottom: 10px;
 }
@@ -38,17 +38,18 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
-  background: #38d39f;
+  background: #38d352;
   margin-bottom: 10px;
 }
 
 .lsItem > label {
   font-size: 12px;
-  background: #38d39f;
+  background: #38d352;
+  /* background: #474747; */
 }
 
 .lsItem > input {
-  background: #1f1f1f;
+  background: #474747;
   height: 30px;
   border: none;
   border-radius: 10px;
@@ -58,7 +59,7 @@
 .lsItem > span {
   height: 30px;
   padding: 5px;
-  background: #1f1f1f;
+  background: #474747;
   border-radius: 10px;
   color: white;
   display: flex;
@@ -66,34 +67,34 @@
   cursor: pointer;
 }
 .lsOptionText {
-  background: #1f1f1f;
+  background: #474747;
 }
 .lsOptions {
   padding: 10px;
-  background: #1f1f1f;
+  background: #474747;
 }
 
 .lsOptionItem {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
-  background: #1f1f1f;
+  background: #474747;
   color: white;
   font-size: 12px;
 }
 
 .lsOptionInput {
   width: 50px;
-  background: #1f1f1f;
+  background: #474747;
   border: none;
   border-radius: 5px;
-  border: solid #38d39f;
+  border: solid #38d352;
   color: white;
 }
 
 .listSearch > button {
   padding: 10px;
-  background: #1f1f1f;
+  background: #474747;
   border-radius: 10px;
   color: white;
   border: none;
@@ -101,7 +102,11 @@
   font-weight: 500;
   cursor: pointer;
 }
-
+.liDaterange {
+  background: #474747;
+  color: white;
+}
 .listResult {
+  background: #474747;
   flex: 3;
 }

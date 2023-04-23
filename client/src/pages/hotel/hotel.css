@@ -20,7 +20,7 @@
   right: 0;
   border: none;
   padding: 10px 20px;
-  background-color: #0071c2;
+  background-color: #38d352;
   color: white;
   font-weight: bold;
   border-radius: 5px;
@@ -39,7 +39,7 @@
 }
 
 .hotelDistance {
-  color: #0071c2;
+  color: #2ca841;
   font-weight: 500;
 }
 
@@ -82,7 +82,8 @@
 
 .hotelDetailsPrice {
   flex: 1;
-  background-color: #ebf3ff;
+  background-color: #d7f6dc;
+  border-radius: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -102,14 +103,14 @@
 .hotelDetailsPrice > button {
   border: none;
   padding: 10px 20px;
-  background-color: #0071c2;
+  background-color: #38d352;
   color: white;
   font-weight: bold;
   cursor: pointer;
   border-radius: 5px;
 }
 
-.slider{
+.slider {
   position: sticky;
   top: 0;
   left: 0;
@@ -121,7 +122,7 @@
   align-items: center;
 }
 
-.sliderWrapper{
+.sliderWrapper {
   width: 100%;
   height: 100%;
   display: flex;
@@ -129,12 +130,12 @@
   align-items: center;
 }
 
-.sliderImg{
+.sliderImg {
   width: 80%;
   height: 80vh;
 }
 
-.close{
+.close {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -143,7 +144,7 @@
   cursor: pointer;
 }
 
-.arrow{
+.arrow {
   margin: 20px;
   font-size: 50px;
   color: lightgray;

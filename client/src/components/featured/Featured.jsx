@@ -7,7 +7,7 @@ const Featured = () => {
   // console.log("featured: ",data)
   return (
     <div className="featured">
-      {loading ? ("Loading Please Wait...")
+      {loading ?<h3 className="lod">Loading Please Wait...</h3>
       : (<><div className="featuredItem">
         <img
           src="https://images.thrillophilia.com/image/upload/s--ItzISoBb--/c_fill,g_center,h_642,q_auto,w_1280/f_auto,fl_strip_profile/v1/images/photos/000/180/037/original/1581320085_1549520382-akshardham-gandhinagar-1.jpg.jpg"

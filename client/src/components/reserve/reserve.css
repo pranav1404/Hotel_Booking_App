@@ -8,10 +8,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background: #474747; */
 }
 
 .rContainer {
   background-color: white;
+  background: #474747ef;
+  border-radius: 10px;
   padding: 20px;
   position: relative;
 }
@@ -33,9 +36,13 @@
 .rInfo {
   display: flex;
   flex-direction: column;
+  /* color: aliceblue; */
   gap: 5px;
 }
 
+.confirm {
+  color: white;
+}
 .rTitle {
   font-weight: 500;
 }
@@ -68,7 +75,7 @@
 .rButton {
   border: none;
   padding: 10px 20px;
-  background-color: #0071c2;
+  background-color: #38d352;
   color: white;
   font-weight: bold;
   cursor: pointer;

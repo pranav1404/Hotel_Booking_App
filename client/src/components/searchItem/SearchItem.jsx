@@ -36,7 +36,7 @@ const SearchItem = ({item}) => {
         <span className="siFeatures">
           {item.desc.length > 250 ?
           (
-            <div>
+            <div className="siDesc">
               {`${item.desc.substring(0, 250)}...`}
               {/* <a href="">Read more</a> */}
             </div>

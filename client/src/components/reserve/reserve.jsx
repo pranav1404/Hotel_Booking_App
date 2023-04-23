@@ -91,7 +91,7 @@ const Reserve = ({ setOpen, hotelId }) => {
           onClick={() => setOpen(false)}
         />
 
-        <h2>Confirm...?</h2>
+        <h2 className="confirm">Confirm...?</h2>
         {/* <span>Select your rooms:</span>
         <div className="rItem">
             <div className="rItemInfo">

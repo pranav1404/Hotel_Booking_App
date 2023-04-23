@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  background: #1f1f1f;
+  background: #474747;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
   padding: 20px;
   border-radius: 10px;
@@ -29,12 +29,12 @@
   font-size: 18px;
   color: white;
   text-transform: capitalize;
-  background: #1f1f1f;
+  background: #474747;
 }
 
 .pListTitles > h2 {
   font-size: 14px;
   font-weight: 300;
   color: white;
-  background: #1f1f1f;
+  background: #474747;
 }

@@ -78,7 +78,7 @@ const Hotel = () => {
     <div>
       <Navbar />
       <Header type="list" />
-      {loading ? "Loading Please Wait..." : (<div className="hotelContainer">
+      {loading ? <h3 className="">Loading Please Wait...</h3>: (<div className="hotelContainer">
         {open && (
           <div className="slider">
             <FontAwesomeIcon
