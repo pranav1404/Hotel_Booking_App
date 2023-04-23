@@ -23,7 +23,7 @@ Database: MongoDB
 To use the hotel booking app, follow the steps below:
 
 1. Clone the repository to your local machine using the command:
-git clone https://github.com/your-username/hotel-booking-app.git
+git clone https://github.com/parva2612/Hotel_Booking.git
 
 2. Install the required dependencies using the command:
 npm install
